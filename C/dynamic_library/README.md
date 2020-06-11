@@ -1,14 +1,14 @@
 ## Dynamic Library example and use
 
 <b>example.h:</b> dynamic library header  
-*example.c:* dynamic library implementation (code)  
-*use-libexample:* program that uses dynamic library  
+<b>example.c:</b> dynamic library implementation (code)  
+<b>use-libexample:</b> program that uses dynamic library  
 
 #### How to compile?
-*dynamic library:* gcc -shared -fPIC example.c -o libexample.so  
-*program*: gcc -o use-libexample use-libexample.c -L. -lexample  
+<b>dynamic library:</b> gcc -shared -fPIC example.c -o libexample.so  
+<b>program</b>: gcc -o use-libexample use-libexample.c -L. -lexample  
 
 
-OBS.: The lib needs to be copied to /usr/lib/ or /usr/local/lib/  
+<b>OBS.:</b> The lib needs to be copied to /usr/lib/ or /usr/local/lib/  
 Its name needs to be: lib+name+.so  
 Example: libexample.so  
