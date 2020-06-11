@@ -1,12 +1,11 @@
 ## Dynamic Library example and use
 
-example.h: dynamic library header
-example.c: dynamic library implementation (code)
-use-libexample: program that uses dynamic library
+*example.h:* dynamic library header
+*example.c:* dynamic library implementation (code)
+*use-libexample:* program that uses dynamic library
 
 #### How to compile?
 *dynamic library:* gcc -shared -fPIC example.c -o libexample.so
-
 *program*: gcc -o use-libexample use-libexample.c -L. -lexample
 
 
