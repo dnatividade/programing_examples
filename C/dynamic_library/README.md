@@ -1,6 +1,6 @@
 ## Dynamic Library example and use
 
-*example.h:* dynamic library header  
+<b>example.h:<b> dynamic library header  
 *example.c:* dynamic library implementation (code)  
 *use-libexample:* program that uses dynamic library  
 
